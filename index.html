@@ -4,12 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork11-colorSwitch</title>
+    <title>HomeWork11-timer</title>
     <link rel="stylesheet" href="./styles/styles.css"/>
 </head>
 <body>
-    <button class="btn start" type="button" data-action="start">Start</button>
-    <button class="btn stop" type="button" data-action="stop">Stop</button>
-    <script src="colorSwitch.js"></script>
+    <div class="timer" id="timer-1">
+        <div class="field">
+          <span class="value" data-value="days">11</span>
+          <span class="label">Days</span>
+        </div>
+      
+        <div class="field">
+          <span class="value" data-value="hours">11</span>
+          <span class="label">Hours</span>
+        </div>
+      
+        <div class="field">
+          <span class="value" data-value="mins">11</span>
+          <span class="label">Minutes</span>
+        </div>
+      
+        <div class="field">
+          <span class="value" data-value="secs">11</span>
+          <span class="label">Seconds</span>
+        </div>
+
+        <div class="box">
+            <button class="start btn">Start</button>
+            <button class="stop btn">Stop</button>
+        </div>
+        
+      </div>
+
+    <script src="timer.js"></script>
 </body>
 </html>

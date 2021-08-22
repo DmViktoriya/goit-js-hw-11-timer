@@ -1,24 +1,71 @@
 .start {
-    background-color: rgb(158, 243, 21);
+    background-color: rgb(60, 241, 211);
 }
 
 .stop {
-    background-color: rgb(243, 169, 156);
+    background-color: rgb(130, 129, 219);
 }
 
 .btn {
     cursor: pointer;
+    font-weight: 700;
     width: 150px;
     height: 70px;
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
 }
 
 .start:hover {
-    background-color: green;
+    background-color: rgb(5, 194, 162);
 }
 
 .stop:hover {
-    background-color: red;
+    background-color: rgb(94, 92, 218);
+}
+
+.timer {
+    background-color: rgb(147, 231, 217);
+    display: inline-block;
+    padding: 40px;
+}
+
+.field {
+    width: 70px;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(148, 147, 216);
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+.value {
+    font-size: 80px;
+    font-weight: 900;
+    width: 60px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.label {
+    padding: auto;
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color:rgb(94, 92, 218);
 }
