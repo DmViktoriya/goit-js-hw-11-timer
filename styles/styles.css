@@ -1,0 +1,24 @@
+.start {
+    background-color: rgb(158, 243, 21);
+}
+
+.stop {
+    background-color: rgb(243, 169, 156);
+}
+
+.btn {
+    cursor: pointer;
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.start:hover {
+    background-color: green;
+}
+
+.stop:hover {
+    background-color: red;
+}
